@@ -1,16 +1,44 @@
-# React + Vite
+# Dating App - Frontend Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend client for the Dating App, built using React and Vite. It provides a modern, responsive user interface for users to interact with the dating platform.
 
-Currently, two official plugins are available:
+##  Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: UI library for building the interface.
+- **Vite**: Next Generation Frontend Tooling for fast development and building.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **React Router DOM**: For handling client-side routing.
+- **Axios**: For making HTTP requests to the backend API.
 
-## React Compiler
+## 🛠️ Installation & Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1.  **Navigate to the client directory:**
+    ```bash
+    cd dating-client
+    ```
 
-## Expanding the ESLint configuration
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    The application will typically start at `http://localhost:5173`.
+
+## 📜 Available Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the app for production.
+- `npm run lint`: Runs ESLint to check for code quality issues.
+- `npm run preview`: Locally preview the production build.
+
+## 📁 Project Structure
+
+- `src/`: Contains the source code.
+  - `components/`: Reusable UI components.
+  - `pages/`: Page components corresponding to routes.
+  - `App.jsx`: Main application component.
+  - `main.jsx`: Entry point of the application.
