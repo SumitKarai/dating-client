@@ -25,7 +25,7 @@ const Home = () => {
         // Let's use browser location for real-time "nearby"
         navigator.geolocation.getCurrentPosition(async (position) => {
            const { latitude, longitude } = position.coords;
-           const { data } = await axios.get(`http://localhost:5000/api/nearby-users?latitude=${latitude}&longitude=${longitude}&userId=${user._id}`);
+           const { data } = await axios.get(`${import.meta.env.VITE_API_URL}/api/nearby-users?latitude=${latitude}&longitude=${longitude}&userId=${user._id}`);
            setNearbyUsers(data);
         });
 
