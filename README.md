@@ -1,5 +1,5 @@
 # Dating App - Frontend Client
-
+deployed app url https://dating-client-three.vercel.app/
 This is the frontend client for the Dating App, built using React and Vite. It provides a modern, responsive user interface for users to interact with the dating platform.
 
 ##  Technologies Used
